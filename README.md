@@ -1,13 +1,6 @@
-# OpenDota2 Vision
+<img width="1103" height="580" alt="image" src="https://github.com/user-attachments/assets/21bb860f-896c-4869-bfd6-670520cce53e" /># OpenDota2 Vision
 
 Python script for analyzing Dota 2 player stats and detecting potential smurfs.
-
-## ⚠️ Important Note
-This script **works only in BORDERLESS WINDOW MODE** in Dota 2.
-
-# SHOWCASE
-<img width="1153" height="672" alt="123" src="https://github.com/user-attachments/assets/477ce8e5-2156-4588-b118-f088456bfe55" />
-
 
 ---
 
@@ -18,6 +11,19 @@ This script **works only in BORDERLESS WINDOW MODE** in Dota 2.
 - Simple GUI to display results
 
 ---
+
+
+## ⚠️ Important Note
+This script **works only in BORDERLESS WINDOW MODE** in Dota 2.
+
+# SHOWCASE
+<img width="1153" height="672" alt="123" src="https://github.com/user-attachments/assets/477ce8e5-2156-4588-b118-f088456bfe55" />
+
+## Example: OCR Limitations
+
+Sometimes the script cannot detect Friend ID correctly if the background is too busy or the text is not visible.
+<img width="1103" height="644" alt="222" src="https://github.com/user-attachments/assets/1e88b3a0-70cc-4b37-a4af-e64ef8aeace8" />
+
 # Dependencies
 
 1: Install dependencies:
