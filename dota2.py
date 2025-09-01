@@ -6,7 +6,7 @@ import re
 
 # ------------------ CONFIG ------------------
 # Path to your Tesseract executable
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r''
 
 # Set dark theme for CustomTkinter
 customtkinter.set_appearance_mode("dark")
@@ -125,3 +125,4 @@ button_scan = customtkinter.CTkButton(app, text="Scan Screen", command=scan_scre
 button_scan.pack(pady=10)
 
 app.mainloop()
+
