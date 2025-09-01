@@ -8,7 +8,6 @@ Python script for analyzing Dota 2 player stats and detecting potential smurfs.
 - Calculates winrate for last matches
 - Simple GUI to display results
 
----
 
 
 ## ⚠️ Important Note
