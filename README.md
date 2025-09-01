@@ -1,4 +1,5 @@
 # OPENDOTA2-VISION
+I’m open to feedback, feature suggestions, or any ideas to improve the script!
 
 Python script for analyzing Dota 2 player stats and detecting potential smurfs.
 
