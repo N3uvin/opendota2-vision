@@ -5,6 +5,10 @@ Python script for analyzing Dota 2 player stats and detecting potential smurfs.
 ## ⚠️ Important Note
 This script **works only in borderless window mode** in Dota 2.
 
+# SHOWCASE
+<img width="1536" height="960" alt="123" src="https://github.com/user-attachments/assets/aa51044d-8ede-418a-bd7a-10f49d87b865" />
+
+
 ---
 
 ## Features
