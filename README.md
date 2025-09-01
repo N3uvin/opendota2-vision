@@ -16,6 +16,7 @@ This script **works only in borderless window mode** in Dota 2.
 ---
 
 1: Install dependencies:
+
 `pip install -r requirements.txt`
 
 2: Install Tesseract-OCR:
@@ -23,7 +24,8 @@ This script **works only in borderless window mode** in Dota 2.
 https://github.com/UB-Mannheim/tesseract/wiki
 
 
-3:Set the path to Tesseract in dota2.py **if needed**:
+3: Set the path to Tesseract in dota2.py **if needed**:
+
 `pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'`
 
 
