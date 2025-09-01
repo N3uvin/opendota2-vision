@@ -18,6 +18,7 @@ This script **works only in borderless window mode** in Dota 2.
 - Simple GUI to display results
 
 ---
+## dependencies
 
 1: Install dependencies:
 
