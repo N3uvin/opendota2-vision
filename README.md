@@ -1,4 +1,4 @@
-<img width="1103" height="580" alt="image" src="https://github.com/user-attachments/assets/21bb860f-896c-4869-bfd6-670520cce53e" /># OpenDota2 Vision
+# OPENDOTA2-VISION
 
 Python script for analyzing Dota 2 player stats and detecting potential smurfs.
 
