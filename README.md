@@ -1,13 +1,33 @@
-# opendota2-vision
+# OpenDota2 Vision
+
+Python script for analyzing Dota 2 player stats and detecting potential smurfs.
+
+---
+
+## ⚠️ Important Note
+This script **works only in borderless window mode** in Dota 2.
+
+---
+
+## Features
+- Detects potential smurfs by analyzing recent matches
+- Tracks most played heroes
+- Calculates winrate for last matches
+- Simple GUI to display results
+
+---
+
+1: Install dependencies:
+'pip install -r requirements.txt'
+
+2: Install Tesseract-OCR:
+
+https://github.com/UB-Mannheim/tesseract/wiki
 
 
-
-Python script for detecting potential smurfs. 
-
-# SHOWCASE
-<img width="1191" height="594" alt="image" src="https://github.com/user-attachments/assets/ecdd3591-7a2d-4acd-8768-50fb92d6aa3a" />
+3:Set the path to Tesseract in dota2.py **if needed**:
+'pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe''
 
 
-# ATTENTION
-Script might not work it situations like this!
-<img width="1234" height="601" alt="image" src="https://github.com/user-attachments/assets/0f7597d4-d17f-4761-9435-765404915654" />
+# USAGE
+'python dota2.py'
