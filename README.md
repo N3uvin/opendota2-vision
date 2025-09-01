@@ -2,8 +2,6 @@
 
 Python script for analyzing Dota 2 player stats and detecting potential smurfs.
 
----
-
 ## Features
 - Detects potential smurfs by analyzing recent matches
 - Tracks most played heroes
