@@ -2,3 +2,4 @@ pytesseract
 pillow
 requests
 customtkinter
+pyinstaller
