@@ -1,0 +1,8 @@
+# Core dependencies
+pytesseract==0.3.10
+pillow==10.0.0
+requests==2.31.0
+customtkinter==5.2.2
+
+# Additional dependencies that might be needed
+numpy==1.24.3
