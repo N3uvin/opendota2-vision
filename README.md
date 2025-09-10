@@ -1,38 +1,31 @@
-OPENDOTA2-VISION
-I’m open to feedback, feature suggestions, or any ideas to improve the script!
+# Dota 2 Vision 🎯
 
-Python script for analyzing Dota 2 player stats and detecting potential smurfs.
+Python tool for analyzing Dota 2 stats and detecting smurfs using OCR.
 
-Features
-Detects potential smurfs by analyzing recent matches
-Tracks most played heroes
-Calculates winrate for last matches
-Simple GUI to display results
-⚠️ Important Note
-This script works only in BORDERLESS WINDOW MODE in Dota 2.
+![Demo](https://github.com/user-attachments/assets/c97ccfdf-367a-48e0-8794-9a3a7052f127)
 
-⚙️ Note: This script requires Python to run. If there’s enough interest, I plan to release a standalone .exe version for easier use.
+## ✨ Features
 
-SHOWCASE
-<img width="1153" height="672" alt="Снимок экрана 2025-09-01 182734" src="https://github.com/user-attachments/assets/c97ccfdf-367a-48e0-8794-9a3a7052f127" />
+- 🔍 Detect potential smurfs
+- 📊 Analyze recent matches
+- 🎮 Track most played heroes
+- ⚡ Calculate win rates
+- 🖥️ Simple GUI interface
 
+## ⚠️ Requirements
 
-Example: OCR Limitations
-Sometimes the script cannot detect Friend ID correctly if the background is too busy or the text is not visible. 222
-<img width="1103" height="580" alt="Снимок экрана 2025-09-01 183045" src="https://github.com/user-attachments/assets/b5a1b13b-c4c0-4ae1-abcc-9125eae75916" />
+- Dota 2 in **borderless window mode**
+- Python 3.7+
+- Tesseract-OCR
 
-Dependencies
-1: Install dependencies:
+## 🚀 Quick Start
 
+```bash
+# 1. Install dependencies
 pip install -r requirements.txt
 
-2: Install Tesseract-OCR:
+# 2. Install Tesseract-OCR from:
+# https://github.com/UB-Mannheim/tesseract/wiki
 
-https://github.com/UB-Mannheim/tesseract/wiki
-
-3: Set the path to Tesseract in dota2.py if needed:
-
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
-USAGE
+# 3. Run the tool
 python dota2.py
