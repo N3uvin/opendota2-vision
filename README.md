@@ -18,14 +18,15 @@ Python tool for analyzing Dota 2 stats and detecting smurfs using OCR.
 - Python 3.7+
 - Tesseract-OCR
 
-## 🚀 Quick Start
+## 🚀 Quick Installation
 
 ```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Install Tesseract-OCR from:
+# 1. Install Tesseract-OCR from:
 # https://github.com/UB-Mannheim/tesseract/wiki
 
-# 3. Run the tool
-python dota2.py
+# 2. Install Python dependencies:
+pip install -r requirements.txt
+
+# 3. Run the tool:
+python opendota2-vision.py
+```
